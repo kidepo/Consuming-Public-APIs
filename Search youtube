@@ -42,7 +42,7 @@ def youtube_search(options):
   print "Playlists:\n", "\n".join(playlists), "\n"
 
 
-if __name__ == "__main__":#Prepaparing command linArguments to :Search Query
+if __name__ == "__main__":#Prepaparing command line Arguments to :Search Query
   argparser.add_argument("--q", help="Search term", default="Google")
   argparser.add_argument("--max-results", help="Max results", default=25)
   args = argparser.parse_args()
